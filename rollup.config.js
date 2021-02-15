@@ -14,7 +14,7 @@ export default {
         sourcemap: true
       },
     plugins: [
-        resolve(),
+        resolve({browser: true}),
         commonjs(),
         WATCH ? false : terser(),
         copy({

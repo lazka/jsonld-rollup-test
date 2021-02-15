@@ -1,5 +1,5 @@
 //import jsonld from 'jsonld';
-import jsonld from 'jsonld/dist/jsonld.min.js';
+import jsonld from 'jsonld/lib/jsonld.js';
 
 const context = {
     "name": "http://schema.org/name",
